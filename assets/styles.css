@@ -37,6 +37,11 @@ header .logo
   position: relative;
   max-width: 80px;
 }
+header ul
+{
+  position: relative;
+  display: flex;
+}
 /* end of the header styles */
 /* start of preloader styles */
 #preloader
