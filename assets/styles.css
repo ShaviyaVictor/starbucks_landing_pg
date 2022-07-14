@@ -117,6 +117,10 @@ header ul li a
   padding-right: 50px;
   margin-top: 50px;
 }
+.content .imgBox img
+{
+  max-width: 340px;
+}
 /* end of the content section container styling */
 
 
