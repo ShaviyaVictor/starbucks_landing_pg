@@ -87,4 +87,10 @@ header ul li a
   line-height: 1.4em;
   font-weight: 500;
 }
+.content .textBox h2 span
+{
+  color: #017143;
+  font-size: 1.2em;
+  font-weight: 900;
+}
 /* end of the content section container styling */
