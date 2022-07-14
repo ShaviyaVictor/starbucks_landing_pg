@@ -75,4 +75,9 @@ header ul li a
   justify-content: space-between;
   align-items: center;
 }
+.content .textBox
+{
+  position: relative;
+  max-width: 600px;
+}
 /* end of the content section container styling */
