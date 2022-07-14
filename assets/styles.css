@@ -42,6 +42,10 @@ header ul
   position: relative;
   display: flex;
 }
+header ul li
+{
+  list-style: none;
+}
 /* end of the header styles */
 /* start of preloader styles */
 #preloader
