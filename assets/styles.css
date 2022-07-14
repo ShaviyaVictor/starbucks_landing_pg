@@ -93,4 +93,8 @@ header ul li a
   font-size: 1.2em;
   font-weight: 900;
 }
+.content .textBox p
+{
+  color: #333;
+}
 /* end of the content section container styling */
