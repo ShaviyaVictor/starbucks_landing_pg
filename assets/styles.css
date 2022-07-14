@@ -19,6 +19,8 @@ section
   align-items: center;
   background: #fff;
 }
+/* end of global styles */
+/* start of the header styles */
 header
 {
   position: absolute;
@@ -30,8 +32,12 @@ header
   justify-content: space-between;
   align-items: center;
 }
-/* end of global styles */
-
+header .logo
+{
+  position: relative;
+  max-width: 80px;
+}
+/* end of the header styles */
 /* start of preloader styles */
 #preloader
 {
