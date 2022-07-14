@@ -8,6 +8,16 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+section
+{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* end of global styles */
 
 /* start of preloader styles */
