@@ -198,7 +198,7 @@ footer
 /* end of footer styles */
 
 /* start of vibration on hover styles */
-.content .textBox a:hover
+.content .textBox a:hover, .sci li a:hover
 {
   animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
   transform: translate3d(0, 0, 0);
