@@ -161,6 +161,10 @@ header ul li a
   align-items: center;
   flex-direction: column;
 }
+.sci li
+{
+  list-style: none;
+}
 /* end of social icon styles */
 
 /* start of vibration on hover styles */
