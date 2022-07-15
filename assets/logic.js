@@ -13,5 +13,9 @@ function imgSlider(anything) {
 
 // function for changing the color of the circular background
 function changeCircleBgColor(color) {
-  document.querySelector('.circle').style.background = color
+  // document.querySelector('.circle').style.background = color
+
+  // an alternative that uses const to avoid the long line of code
+  var circle = document.querySelector('.circle');
+  circle.style.background = color;
 };
