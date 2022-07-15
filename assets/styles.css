@@ -142,7 +142,7 @@ header ul li a
 }
 .thumb li:hover
 {
-  transform: translateY(-15px);
+  transform: translateY(-20px);
 }
 .thumb li img
 {
