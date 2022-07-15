@@ -135,6 +135,15 @@ header ul li a
   display: inline-block;
   margin: 0 20px;
   cursor: pointer;
+  transition: 0.5s;
+}
+.thumb li:hover
+{
+  transform: translateY(-15px);
+}
+.thumb li img
+{
+  max-width: 60px;
 }
 /* end of the content section container styling */
 
