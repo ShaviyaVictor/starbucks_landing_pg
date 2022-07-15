@@ -8,5 +8,5 @@ window.addEventListener('load', function() {
 
 // function for changing the image on click
 function imgSlider(anything) {
-  document.querySelector('.starbucks')
+  document.querySelector('.starbucks').src = anything
 };
