@@ -121,6 +121,9 @@ header ul li a
 {
   max-width: 340px;
 }
+/* end of the content section container styling */
+/* start of thumb images styles */
+
 .thumb
 {
   position: absolute;
@@ -145,9 +148,20 @@ header ul li a
 {
   max-width: 60px;
 }
-/* end of the content section container styling */
-
-
+/* end of thumb images styles */
+/* start of social icon styles */
+.sci
+{
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* end of social icon styles */
 
 /* start of vibration on hover styles */
 .content .textBox a:hover
