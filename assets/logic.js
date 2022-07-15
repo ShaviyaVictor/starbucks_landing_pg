@@ -10,3 +10,8 @@ window.addEventListener('load', function() {
 function imgSlider(anything) {
   document.querySelector('.starbucks').src = anything
 };
+
+// function for changing the color of the circular background
+function changeCircleBgColor(color) {
+  document.querySelector('.circle').style.background = color
+};
