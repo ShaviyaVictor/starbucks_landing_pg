@@ -165,6 +165,12 @@ header ul li a
 {
   list-style: none;
 }
+.sci li a
+{
+  display: inline-block;
+  margin: 5px 0;
+  transform: scale(0.6);
+}
 /* end of social icon styles */
 
 /* start of vibration on hover styles */
