@@ -186,6 +186,17 @@ header ul li a
 }
 /* end of styling for the circular background */
 
+/* styles for the footer */
+/* this style settings put the footer ABSOLUTELY to the bottom and center */
+footer
+{
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  transform: translateX(-50%);
+}
+/* end of footer styles */
+
 /* start of vibration on hover styles */
 .content .textBox a:hover
 {
