@@ -172,6 +172,17 @@ header ul li a
   transform: scale(0.6);
 }
 /* end of social icon styles */
+/* start of styling for the circular background */
+.circle
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #017143;
+}
+/* end of styling for the circular background */
 
 /* start of vibration on hover styles */
 .content .textBox a:hover
