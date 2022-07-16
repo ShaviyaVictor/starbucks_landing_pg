@@ -280,7 +280,14 @@ footer
     cursor: pointer;
     filter: invert(-1);
   }
-
+  .toggleMenu.active
+  {
+    background: url(./images/close.png);
+    background-position: center;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    /* filter: invert(1); */
+  }
   .content
   {
     flex-direction: column;
