@@ -244,6 +244,29 @@ footer
   {
     padding: 20px;
   }
+
+  header .logo
+  {
+    /* position: relative; */
+    max-width: 60px;
+  }
+  header ul
+  {
+    display: none;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0; */
+  }
   
 }
 /* end of responsive desin styles */
