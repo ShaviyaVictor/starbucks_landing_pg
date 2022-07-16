@@ -237,7 +237,7 @@ footer
 {
   section
   {
-    padding: 20px;
+    padding: 20px 20px 120px;
     /* padding-bottom: 140px; */
   }
   header
@@ -287,9 +287,18 @@ footer
   }
 
   .circle
-{
-  clip-path: circle(400px at center bottom);
-}
+  {
+    clip-path: circle(400px at center bottom);
+  }
+
+  .content .imgBox
+  {
+    max-width: 100%;
+    /* display: flex;
+    padding-right: 0;
+    margin-top: 50px; */
+    justify-content: center;
+  }
 
 }
 /* end of responsive desin styles */
