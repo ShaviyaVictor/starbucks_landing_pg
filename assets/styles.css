@@ -301,11 +301,11 @@ footer
   }
   .content .imgBox img 
   {
-    max-width: 250px;
+    max-width: 280px;
   }
   .thumb li img 
   {
-    max-width: 40px;
+    max-width: 50px;
   }
 
 }
