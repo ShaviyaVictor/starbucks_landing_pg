@@ -5,6 +5,7 @@ A sample landing page for Starbucks made for learning purposes...
 <img src="#" width="750" height="380">             
 <img src="#" width="750" height="380">             
 <img src="#" width="210" height="390">            
+<img src="#" width="210" height="390">            
 
 ## Built With
 
