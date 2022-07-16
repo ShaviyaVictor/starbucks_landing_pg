@@ -307,6 +307,19 @@ footer
   {
     max-width: 50px;
   }
-
+  .sci
+  {
+    /* position: absolute;
+    top: 50%; */
+    right: 0;
+    width: 50px;
+    background: #017143;
+    /* transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
 }
 /* end of responsive desin styles */
