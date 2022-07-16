@@ -303,6 +303,10 @@ footer
   {
     max-width: 250px;
   }
+  .thumb li img 
+  {
+    max-width: 40px;
+  }
 
 }
 /* end of responsive desin styles */
