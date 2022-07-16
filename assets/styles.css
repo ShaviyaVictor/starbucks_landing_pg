@@ -267,6 +267,19 @@ footer
     opacity: 0; */
   }
 
+  .toggle
+  {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: url(./images/menu.png);
+    background-position: center;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    /* z-index: 2; */
+    cursor: pointer;
+  }
+
   .content
   {
     flex-direction: column;
