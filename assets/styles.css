@@ -252,19 +252,6 @@ footer
   header ul
   {
     display: none;
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    z-index: 1;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: 0.2s;
-    visibility: hidden;
-    opacity: 0; */
   }
 
   .toggle
@@ -276,17 +263,16 @@ footer
     background-position: center;
     background-size: 40px;
     background-repeat: no-repeat;
-    /* z-index: 2; */
+    z-index: 6;
     cursor: pointer;
     filter: invert(-1);
   }
-  .toggleMenu.active
+  .toggle.active
   {
     background: url(./images/close.png);
     background-position: center;
     background-size: 40px;
     background-repeat: no-repeat;
-    /* filter: invert(1); */
   }
   .content
   {
@@ -315,9 +301,6 @@ footer
   .content .imgBox
   {
     max-width: 100%;
-    /* display: flex;
-    padding-right: 0;
-    margin-top: 50px; */
     justify-content: center;
   }
   .content .imgBox img 
@@ -330,17 +313,26 @@ footer
   }
   .sci
   {
-    /* position: absolute;
-    top: 50%; */
     right: 0;
     width: 50px;
     background: #017143;
-    /* transform: translateY(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center; */
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+  }
+  header ul.navigation.active
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    z-index: 5;
   }
 }
 /* end of responsive desin styles */
