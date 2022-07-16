@@ -273,11 +273,23 @@ footer
     margin-top: 100px;
   }
 
+  .content .textBox
+  {
+    position: relative;
+    max-width: 100%;
+    padding-right: 20px;
+  }
+
   .content .textBox h2 
   {
-    color: #333;
     font-size: 2.5em;
+    margin-bottom: 15px;
   }
+
+  .circle
+{
+  clip-path: circle(400px at center bottom);
+}
 
 }
 /* end of responsive desin styles */
