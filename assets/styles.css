@@ -299,6 +299,10 @@ footer
     margin-top: 50px; */
     justify-content: center;
   }
+  .content .imgBox img 
+  {
+    max-width: 250px;
+  }
 
 }
 /* end of responsive desin styles */
