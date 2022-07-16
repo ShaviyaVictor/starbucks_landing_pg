@@ -278,6 +278,7 @@ footer
     background-repeat: no-repeat;
     /* z-index: 2; */
     cursor: pointer;
+    filter: invert(-1);
   }
 
   .content
