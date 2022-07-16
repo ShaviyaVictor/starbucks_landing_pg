@@ -1,11 +1,10 @@
 # startbucks_landing_pg
 A sample landing page for Starbucks made for learning purposes...
      
-<img src="#" width="750" height="380">             
-<img src="#" width="750" height="380">             
-<img src="#" width="750" height="380">             
-<img src="#" width="210" height="390">            
-<img src="#" width="210" height="390">            
+<img src="https://github.com/ShaviyaVictor/starbucks_landing_pg/blob/main/assets/images/screenshot1.png" width="750" height="380">             
+<img src="https://github.com/ShaviyaVictor/starbucks_landing_pg/blob/main/assets/images/screenshot4.png" width="750" height="380">             
+<img src="https://github.com/ShaviyaVictor/starbucks_landing_pg/blob/main/assets/images/screenshot2.png" width="210" height="390">            
+<img src="https://github.com/ShaviyaVictor/starbucks_landing_pg/blob/main/assets/images/screenshot3.png" width="210" height="390">            
 
 ## Built With
 
