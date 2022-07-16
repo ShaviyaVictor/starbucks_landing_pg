@@ -160,6 +160,7 @@ header ul li a
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* background-color: #017143; */
 }
 .sci li
 {
@@ -197,6 +198,11 @@ footer
 }
 /* end of footer styles */
 
+.sci li a:hover
+{
+  filter: invert(-1);
+}
+
 /* start of vibration on hover styles */
 .content .textBox a:hover, .sci li a:hover
 {
@@ -224,3 +230,20 @@ footer
   }
 }
 /* end of vibration on hover styles */
+
+/* start of responsive design styles */
+/* start of responsive styles */
+@media (max-width: 991px)
+{
+  section
+  {
+    padding: 20px;
+    /* padding-bottom: 140px; */
+  }
+  header
+  {
+    padding: 20px;
+  }
+  
+}
+/* end of responsive desin styles */
