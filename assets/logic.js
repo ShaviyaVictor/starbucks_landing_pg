@@ -19,3 +19,9 @@ function changeCircleBgColor(color) {
   var circle = document.querySelector('.circle');
   circle.style.background = color;
 };
+
+// function for displaying the menuToggle button
+function toggleMenu() {
+  var menuToggle = document.querySelector('.toggle');
+  menuToggle.classList.toggle('active');
+}
